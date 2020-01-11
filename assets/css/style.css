@@ -1,0 +1,17 @@
+body{
+    /*background-image:*/
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.jumbotron {
+    background-color: aqua;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.col-sm-6 {
+    background-color: bisque;
+}

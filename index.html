@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+   <div class="jumbotron">
+            <h1 class="text-center">
+              <strong>Crystals Collector!</strong>
+            </h1>
+            <hr>      
+    </div>
+            
+    <div class="container-fluid">
+        <div id="instructions">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>You will be given a random number at the start of the game.</p>
+                    <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+                    <p>You win the game by matching your total score to the random number. You lose the game of your total score goes above the random number.</p>
+                    <p>The value of each crystal is hidden from you until you click on it.</p>
+                    <p>The values of each crystal will change each time the game restarts.</p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div id="crystals">
+            <img class="crystal-image" src= "assets/images/blue-diamond-crystal.png" alt="crystals">
+            <img class="crystal-image" src= "assets/images/green-heart-crystal.png" alt="crystals">
+            <img class="crystal-image" src= "assets/images/pink-heart-crystal.png" alt="crystals">
+            <img class="crystal-image" src= "assets/images/purple-oval-crystal.png" alt="crystals">
+        </div>
+    </div>
+</body>
+</html>
