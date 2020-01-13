@@ -4,7 +4,12 @@ body{
 }
 
 .jumbotron {
-    background-color: aqua;
+    background-color: aqua; 
+}
+
+h1 {
+    border-bottom: none;
+   
 }
 
 img {
@@ -14,4 +19,24 @@ img {
 
 .col-sm-6 {
     background-color: bisque;
+}
+
+.col-sm-4 {
+    background-color: blueviolet;
+}
+
+.col-sm-2 {
+    background-color: deeppink;
+}
+
+#total-score {
+    background-color: blue;
+}
+
+.total-score {
+    background-color: blue;
+}
+
+.target {
+    background-color: blue;
 }
