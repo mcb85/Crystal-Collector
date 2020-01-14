@@ -29,13 +29,10 @@ $(".crystal-image").each(function (i) {
 setimagevalues();
 
 
-
 //value is hidden from player until crystal clicked
-//add value of crystal clicked to total score
-
 
 $(".crystal-image").on("click", function() {
-    
+    //add value of crystal clicked to total score
     totalScore += parseInt(($(this).attr("data-crystalValue")));
     //display total score on page
    $("#total-score").html("<h2>Your Total Score is: " + totalScore + "<h2>");
@@ -44,25 +41,26 @@ $(".crystal-image").on("click", function() {
     //if total score === to target, add point to wins
     if (totalScore === targetNumber) {
      wins++;
+    //Display wins on page
+    $("#wins").html("<strong><p>Wins: " + wins + "</p></strong>");
     alert("You win!");
     reset();
 //if total score > than target number update losses
 } else if (totalScore >= targetNumber) {
     losses++;
+    //Display losses
+    $("#losses").html("<strong><p>Losses: " + losses + "</p></strong>");
     alert("You lose!");
     reset();
  }   
-    //Display wins on page
-    $("#wins").html("<strong><p>Wins: " + wins + "</p></strong>");
-    //Display losses
-    $("#losses").html("<strong><p>Losses: " + losses + "</p></strong>");
+    //display target number on page
     $("#target-number").html("<h2>Target Number: " + targetNumber+ "<h2>");
 });
 
-
-//display target number on page
 $("#target-number").html("<h2>Target Number: " + targetNumber+ "<h2>");
-
+$("#total-score").html("<h2>Your Total Score is: " + totalScore + "<h2>");
+$("#wins").html("<strong><p>Wins: " + wins + "</p></strong>");
+$("#losses").html("<strong><p>Losses: " + losses + "</p></strong>");
 
 
 

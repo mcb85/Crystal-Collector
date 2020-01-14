@@ -1,4 +1,5 @@
 body{
+    /* Background pattern from Toptal Subtle Patterns*/
     background-image: url(fishnets-and-hearts.png);
     font-family: 'Gloria Hallelujah', cursive;
 }
@@ -7,10 +8,6 @@ body{
     background-color: aqua; 
 }
 
-h1 {
-    border-bottom: none;
-   
-}
 
 img {
     width: 100px;
