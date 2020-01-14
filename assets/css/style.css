@@ -1,5 +1,5 @@
 body{
-    /*background-image:*/
+    background-image: url(fishnets-and-hearts.png);
     font-family: 'Gloria Hallelujah', cursive;
 }
 
@@ -23,20 +23,21 @@ img {
 
 .col-sm-4 {
     background-color: blueviolet;
+    min-height: 200px;
 }
 
 .col-sm-2 {
-    background-color: deeppink;
+    background-color: rgb(238, 104, 175);
 }
 
 #total-score {
-    background-color: blue;
+    background-color: rgb(64, 138, 248);
 }
 
 .total-score {
-    background-color: blue;
+    background-color: rgb(64, 138, 248);
 }
 
 .target {
-    background-color: blue;
+    background-color:rgb(64, 138, 248);
 }
