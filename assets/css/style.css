@@ -25,8 +25,12 @@ img {
 
 .col-sm-2 {
     background-color: rgb(238, 104, 175);
+    padding-top: 40px;
 }
 
+h2 {
+    padding-top: 40px;
+}
 #total-score {
     background-color: rgb(64, 138, 248);
 }
